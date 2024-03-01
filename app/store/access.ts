@@ -16,7 +16,7 @@ export interface AccessControlStore {
   midJourneyAPI: string;
   midJourneyKey: string;
   midJourneyAPIURL: string;
-  mjMode: boolean;
+  mjMode: false;
   proxyUrl: string;
 
   updateToken: (_: string) => void;

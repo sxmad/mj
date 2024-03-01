@@ -233,7 +233,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "集成Midjourney版本，生成图通道有限，可能出现排队情况。\n *对中文支持不好，可以用ChatGPT先翻译成英文。* \n\n**命令：**\n  - /mj 用Midjourney生成图片必须以此开始。\n  - U=Upscale 放大单张(U1就是放大第一张)。\n  - V=Variation 变体，基于单张再生成(v1就是基于第1张再生成)。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
