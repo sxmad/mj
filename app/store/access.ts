@@ -16,7 +16,7 @@ export interface AccessControlStore {
   midJourneyAPI: string;
   midJourneyKey: string;
   midJourneyAPIURL: string;
-  mjMode: false;
+  mjMode: boolean;
   proxyUrl: string;
 
   updateToken: (_: string) => void;
@@ -48,7 +48,7 @@ export const useAccessStore = create<AccessControlStore>()(
       midJourneyAPI: "/api/midjourney/",
       midJourneyKey: "",
       midJourneyAPIURL: "",
-      mjMode: true,
+      mjMode: false,
       proxyUrl: "",
 
       enabledAccessControl() {
